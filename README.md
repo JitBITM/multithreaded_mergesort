@@ -38,6 +38,9 @@ multithreaded_mergesort/
 └── README.md
 ```
 
+```Result
+![alt text](result.png)
+
 ## License
 
 MIT © 2025
