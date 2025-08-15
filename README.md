@@ -16,7 +16,7 @@ A C++ implementation of both serial and parallel (multithreaded) merge sort algo
 
 ```bash
 cd src/app
-g++ -o parallelmergesort sorting/mergeSort.cpp sorting/ParallelMergeSort.cpp -pthread
+g++ main.cpp -o parallelmergesort sorting/mergeSort.cpp sorting/ParallelMergeSort.cpp -pthread
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ multithreaded_mergesort/
 ```
 
 ## Result
-![result](result.png)
+![Short alt text](result.png)
 
 ## License
 
