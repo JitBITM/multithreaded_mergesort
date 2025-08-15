@@ -15,16 +15,8 @@ A C++ implementation of both serial and parallel (multithreaded) merge sort algo
 ## Build & Run
 
 ```bash
-# From project root
-mkdir -p build && cd build
-# Compile both programs
-g++ -std=c++17 -pthread -o parallel_sort \
-    ../src/app/main.cpp \
-    ../src/app/sorting/mergeSort.cpp \
-    ../src/app/sorting/ParallelMergeSort.cpp
-
-# Run
-./parallel_sort
+cd src/app
+g++ -o parallelmergesort sorting/mergeSort.cpp sorting/ParallelMergeSort.cpp -pthread
 ```
 
 ## Usage
