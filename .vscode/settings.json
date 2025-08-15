@@ -1,0 +1,12 @@
+{
+    // Force integrated terminal to always start with GCC from Homebrew
+    "terminal.integrated.env.osx": {
+        "CC": "/opt/homebrew/bin/gcc-15",
+        "CXX": "/opt/homebrew/bin/g++-15",
+        "PATH": "/opt/homebrew/bin:${env:PATH}"
+    },
+
+    // Force C++ build tools to use Homebrew GCC
+    "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64"
+}
