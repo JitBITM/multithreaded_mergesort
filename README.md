@@ -38,7 +38,8 @@ multithreaded_mergesort/
 └── README.md
 ```
 
-![Short alt text](result.png)
+## Result
+![result](result.png)
 
 ## License
 
